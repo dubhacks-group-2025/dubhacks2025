@@ -1,3 +1,7 @@
+import subprocess
+import os
+from fastapi import HTTPException
+
 def convert_glb_to_usdz(glb_path: str, output_dir: str = "models") -> str:
     """
     Converts a .glb file to .usdz using Blender's command-line interface.

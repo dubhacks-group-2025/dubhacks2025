@@ -6,3 +6,6 @@ requests
 python-dotenv
 fastapi
 tripo3d
+google-cloud-firestore
+google-cloud-storage
+aiohttp

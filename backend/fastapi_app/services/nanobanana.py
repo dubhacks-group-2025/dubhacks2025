@@ -26,7 +26,7 @@ def initialize_firebase():
         print("Firebase already initialized")
     except ValueError:
         # Initialize Firebase
-        cred = credentials.Certificate('/Users/simon_pl19nc8/Desktop/School/Extracurriculars/Hackathons/DUBHACKS/final/dubhacks-2025/dubhacks2025-26629-firebase-adminsdk-fbsvc-0be8fb6deb.json')
+        cred = credentials.Certificate('/Users/kellie/dubhacks-2025/dubhacks2025-26629-firebase-adminsdk-fbsvc-314f3d937f.json')
         firebase_admin.initialize_app(cred, {
             'storageBucket': 'dubhacks2025-26629.firebasestorage.app'
         })
